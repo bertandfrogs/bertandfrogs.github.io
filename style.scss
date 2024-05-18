@@ -1,0 +1,105 @@
+$gutter: 20px;
+$button-padding: 15px;
+$font-main: "IBM Plex Sans", sans-serif;
+$font-main-weight: 400;
+$font-main-style: normal;
+$nav-height: 60px;
+$total-nav-height: calc($gutter*2 + $nav-height);
+// $font-heading:
+
+// colors
+$color-background: #DAD7CD;
+$color-accent: #A3B18A;
+$color-primary1: #588157;
+$color-primary2: #3A5A40;
+$color-dark: #344E41;
+$black: #18251A;
+
+html {
+	background-color: $color-background;
+	color: $black;
+	width: 100%;
+	margin: 0;
+	font-family: $font-main;
+	font-weight: $font-main-weight;
+	font-style: $font-main-style;
+}
+
+body {
+	margin: 0;
+}
+.nav {
+	height: $nav-height;
+	background: $color-dark;
+	color: white;
+	// background: linear-gradient(0deg, $color-primary1 0%, $color-dark 100%);
+	display: flex;
+	box-shadow: rgba(0,0,0,.05) 0 2px;
+	align-items: center;
+	padding: $gutter;
+	:first-child {
+		margin-left: 0;
+	}
+	&_element {
+		margin-left: $gutter;
+		&.logo {
+			height: $nav-height;
+			width: auto;
+			// // heptagon
+			// clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+			
+			// nonagon
+			clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+		}
+		&.branch {
+			width: 150px;
+		}
+		&.link {
+			text-decoration: none;
+			color: white;
+			border-radius: 20px;
+			padding: $button-padding;
+			transition: background-color 0.25s ease-in-out;
+			&:hover{
+				background-color: rgba($color-background, 0.1);
+			}
+		}
+	}
+}
+.content{
+	display: flex;
+	padding: $gutter;
+	background-color: rgba($color-background, 0.25);
+	
+	min-height: calc(100vh - ($total-nav-height + $gutter*4));
+
+	&-text {
+		.branch {
+			object-fit: contain;
+			width: 100px;
+		}
+		width: 100%;
+	}
+
+	&-image {
+		position: fixed;
+		z-index: -1;
+		// margin: 0 auto;
+		width: 100%;
+		// display: flex;
+		align-items: center;
+		img {
+			padding: $gutter;
+			width: 100%;
+		}
+	}
+}
+
+.footer {
+	display: flex;
+	width: 100%;
+	height: $gutter*2;
+	background-color: $color-accent;
+	justify-content: center;
+	align-items: center;
+}
