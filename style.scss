@@ -55,8 +55,17 @@ body {
 			clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
 		}
 		&_text {
+			text-decoration: none;
+			list-style-type: none;
 			color: white;
+			border-radius: 20px;
+			padding: $button-padding;
 			margin-left: $gutter;
+			transition: background-color 0.25s ease-in-out;
+			&:hover{
+				cursor: pointer;
+				background-color: rgba($color-background, 0.1);
+			}
 		}
 	}
 	.branch {
@@ -95,6 +104,7 @@ body {
 		.title {
 			display: flex;
 			align-items: center;
+			width: 500px;
 			&_text {
 				margin: $gutter;
 			}
