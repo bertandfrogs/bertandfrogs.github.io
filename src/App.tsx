@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import PixelArt from "./pages/PixelArt";
-import Background from "./components/Background";
-import About from "./pages/About";
-import Programming from "./pages/Programming";
-import Contact from "./pages/Contact";
-import PageLayout from "./components/PageLayout";
+import PixelArt from "./pages/PixelArt.tsx";
+import Background from "./components/Background.tsx";
+import About from "./pages/About.tsx";
+import Programming from "./pages/Programming.tsx";
+import Contact from "./pages/Contact.tsx";
+import PageLayout from "./components/PageLayout.tsx";
 import type React from "react";
 
 function App() {

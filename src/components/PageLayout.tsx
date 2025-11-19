@@ -1,5 +1,5 @@
 import type React from "react";
-import Nav from "./Nav";
+import Nav from "./Nav.tsx";
 
 interface pageLayoutProps {
   children: React.ReactNode;
