@@ -5,7 +5,7 @@ export default function About() {
 				{/* <div className="title">About Me</div> */}
 				<div className="bio">
 					<img
-						src="./src/assets/nice-selfie.jpg"
+						src="./assets/nice-selfie.jpg"
 						alt="photo of Sarah"
 					/>
 					<div className="body">

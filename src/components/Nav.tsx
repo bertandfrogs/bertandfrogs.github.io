@@ -6,7 +6,7 @@ export default function Nav() {
 			<div className="logo">
 				<img
 					className="logo_img"
-					src="./src/assets/self-portrait.png"
+					src="./assets/self-portrait.png"
 				></img>
 				<div className="logo_text">
 					<NavLink className="link" to="/">
