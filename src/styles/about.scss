@@ -1,0 +1,47 @@
+@use "variables";
+@use "mixins";
+
+.about {
+  .textbox {
+    .title {
+      text-align: center;
+    }
+    .bio {
+      // display: flex;
+      // justify-content: space-between;
+      // flex-direction: column;
+      
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-items: center;
+      
+      @include mixins.md() {
+        grid-template-columns: 2fr 3fr;
+      };
+
+      .body {
+        text-align: left;
+        width: 100%;
+        // padding: variables.$gutter;
+        box-sizing: border-box;
+        .interests {
+          p {
+            margin-bottom: 0px;
+          }
+          ul {
+            margin: 0px
+          }
+        }
+      }
+    }
+
+    img {
+      width: 100%;
+      max-width: 250px;
+      object-fit: fill;
+      clip-path: circle(40% at 50% 50%);
+      box-sizing: border-box;
+    }
+  }
+}

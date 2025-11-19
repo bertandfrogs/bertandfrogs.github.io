@@ -1,0 +1,50 @@
+@use "variables";
+.background {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: 0;
+	z-index: -1;
+  overflow: hidden;
+
+	.landscape {
+		opacity: 1;
+		fill-opacity: 1;
+		stroke: none;
+		stroke-width: 0.499999;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+		stroke-dasharray: none;
+		paint-order: markers stroke fill;
+		&_0 {
+			fill: variables.$bg-0;
+		}
+		&_1 {
+      filter: blur(1.5px);
+			fill: variables.$bg-1;
+		}
+		&_2 {
+      filter: blur(1.25px);
+			fill: variables.$bg-2;
+		}
+		&_3 {
+      filter: blur(1px);
+			fill: variables.$bg-3;
+		}
+		&_4 {
+      filter: blur(.25px);
+			fill: variables.$bg-4;
+		}
+		&_5 {
+      // filter: blur(1px);
+			fill: variables.$bg-5;
+		}
+		&_6 {
+      // filter: blur(.25px);
+			fill: variables.$bg-6;
+		}
+		&_7 {
+			fill: variables.$bg-7;
+		}
+	}
+}

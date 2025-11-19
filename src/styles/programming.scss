@@ -1,0 +1,32 @@
+@use "variables";
+
+.programming {
+  .item {
+    display: flex;
+    padding: variables.$gutter 0;
+    justify-content: space-between;
+
+    .photo {
+      max-width: 200px;
+      &.em{
+        max-height: 300px;
+      }
+      &.md {
+        max-width: 400px;
+        height: fit-content;
+      }
+      &.ai {
+
+      }
+    }
+
+    .text {
+      padding-left: variables.$gutter;
+      text-align: left;
+      .header {
+        font-size: larger;
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+@use "variables";
+
+.nav {
+  width: 100%;
+	height: variables.$nav-height;
+	color: variables.$color-dark1;
+	background: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: variables.$gutter;
+
+	.logo {
+		margin-left: variables.$gutter;
+		display: flex;
+		align-items: center;
+		&_img {
+			height: variables.$nav-height;
+			width: auto;
+			border-radius: 50%;
+		}
+		&_text {
+			text-decoration: none;
+			list-style-type: none;
+			border-radius: 20px;
+			padding: variables.$button-padding;
+			margin-left: variables.$gutter;
+      
+      .link.active {
+        font-weight: normal;
+      }
+		}
+	}
+	.link {
+    font-family: variables.$font-accent;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+		text-decoration: none;
+		list-style-type: none;
+		color: variables.$color-dark1;
+		border-bottom: 1px solid transparent;
+		margin-right: variables.$gutter;
+		transition: border 0.25s ease-in-out;
+	}
+	&_links {
+		display: flex;
+		align-items: center;
+
+		.theme {
+			.circle {
+				width: 5vw;
+				height: 5vw;
+				border-radius: 50%;
+			}
+			.sun {
+				background-color: #fbff81;
+				filter: blur(5px);
+			}
+			.moon {
+				display: none;
+				width: 5vw;
+				height: 5vw;
+				border-radius: 50%;
+				box-shadow: inset -1vw -1vw 0 0 variables.$white;
+			}
+		}
+	}
+}

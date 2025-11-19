@@ -1,0 +1,21 @@
+@use 'variables';
+
+.home {
+  color: variables.$color-dark2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: fit-content;
+  height: 50vh;
+
+  // .intro-img {
+  //   height: 50%;
+  //   max-width: 600px;
+  //   object-fit: fill;
+  //   clip-path: circle(40% at 50% 50%);
+  // }
+
+  .textbox {
+    width: 300px;
+  }
+}

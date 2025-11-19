@@ -1,0 +1,54 @@
+$gutter: 25px;
+$button-padding: 10px;
+$font-main: "IBM Plex Sans", sans-serif;
+$font-main-weight: 400;
+$font-main-style: normal;
+$font-accent: "IBM Plex Mono", monospace;
+$nav-height: 60px;
+$total-nav-height: calc($gutter*2 + $nav-height);
+
+// colors
+$color-background: #DAD7CD;
+$color-accent: #A3B18A;
+$color-primary1: #588157;
+$color-primary2: #3A5A40;
+$color-dark1: #344E41;
+$color-dark2: #18251A;
+$black: #000000;
+$white: #ffffff;
+$textbox-transparent: rgba(255,255,255,.5);
+
+// background
+$bg-0-light: #ffffff;
+$bg-1-light: #dad7cd;
+$bg-2-light: #a3b18a;
+$bg-3-light: #588157;
+$bg-4-light: #3a5a40;
+$bg-5-light: #213424;
+$bg-6-light: #172319;
+$bg-7-light: #000;
+
+$bg-0-dark: #000000;
+$bg-1-dark: #dad7cd;
+$bg-2-dark: #a3b18a;
+$bg-3-dark: #588157;
+$bg-4-dark: #3a5a40;
+$bg-5-dark: #213424;
+$bg-6-dark: #172319;
+$bg-7-dark: #000;
+
+$bg-0: light-dark($bg-0-light, $bg-0-dark);
+$bg-1: light-dark($bg-1-light, $bg-1-dark);
+$bg-2: light-dark($bg-2-light, $bg-2-dark);
+$bg-3: light-dark($bg-3-light, $bg-3-dark);
+$bg-4: light-dark($bg-4-light, $bg-4-dark);
+$bg-5: light-dark($bg-5-light, $bg-5-dark);
+$bg-6: light-dark($bg-6-light, $bg-6-dark);
+$bg-7: light-dark($bg-7-light, $bg-7-dark);
+
+// screen size breakpoints
+$screen-xs: 320px;
+$screen-sm: 480px;
+$screen-md: 768px;
+$screen-lg: 1024px;
+$screen-xl: 1200px;

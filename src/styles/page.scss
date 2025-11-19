@@ -1,0 +1,15 @@
+@use "variables";
+@use "mixins";
+
+.page {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+	padding: 0 variables.$gutter;
+  margin: 0 auto;
+
+	min-height: calc(
+		100vh - (variables.$total-nav-height + variables.$gutter * 4)
+	);
+  max-width: 1000px;
+}

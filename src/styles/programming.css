@@ -1,0 +1,1 @@
+.programming .item{display:flex;padding:25px 0;justify-content:space-between}.programming .item .photo{max-width:200px}.programming .item .photo.em{max-height:300px}.programming .item .photo.md{max-width:400px;height:-moz-fit-content;height:fit-content}.programming .item .text{padding-left:25px;text-align:left}.programming .item .text .header{font-size:larger;font-weight:500}

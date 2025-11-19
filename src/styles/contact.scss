@@ -1,0 +1,16 @@
+@use "variables";
+
+.contact {
+  ul {
+    list-style-type: none;
+    li {
+      padding: 0;
+      .bi {
+        margin-right: calc(variables.$gutter / 2);
+        &.sendmail {
+          margin: 0;
+        }
+      }
+    } 
+  }
+}

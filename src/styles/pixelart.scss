@@ -1,0 +1,55 @@
+@use "variables";
+@use "mixins";
+
+.pixelart {
+	.gallery {
+    padding: variables.$gutter;
+    padding-top: 0;
+		display: grid;
+		justify-content: center;
+    box-sizing: border-box;
+    grid-template-columns: repeat(1, 1fr);
+    gap: variables.$gutter;
+
+    @include mixins.sm() {
+      grid-template-columns: repeat(2, 1fr);
+    };
+    @include mixins.md() {
+      grid-template-columns: repeat(3, 1fr);
+    };
+    @include mixins.lg() {
+      grid-template-columns: repeat(4, 1fr);
+    };
+    @include mixins.xl() {
+      grid-template-columns: repeat(4, 1fr);
+    };
+		.artwork {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+      box-sizing: border-box;
+      height: fit-content;
+
+			img {
+        object-fit: contain;
+				max-width: 100%;
+				image-rendering: pixelated;
+			}
+			.details {
+				padding: calc(variables.$gutter / 2) calc(variables.$gutter / 4);
+				background-color: variables.$black;
+				color: variables.$color-background;
+				.title {
+					font-family: variables.$font-accent;
+          font-size: small;
+          letter-spacing: 1px;
+					margin: 0;
+				}
+				p {
+          font-size: small;
+					margin: 0;
+				}
+			}
+		}
+	}
+}
