@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210.18mm" height="148.39mm" version="1.1" viewBox="0 0 210.18 148.39"
+  preserveAspectRatio="xMidYMid slice"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="e" x1="110.13" x2="106.28" y1="-8.0421" y2="82.688"
+      gradientTransform="matrix(-1 0 0 .26303 210.13 197.51)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#588157" offset="0" />
+      <stop stop-color="#799178" offset="1" />
+    </linearGradient>
+    <linearGradient id="d" x1="110.13" x2="103.38" y1="-8.0421" y2="123.58"
+      gradientTransform="matrix(.99689 0 0 .20403 .38682 188.16)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a3b18a" offset="0" />
+      <stop stop-color="#b6beaa" offset="1" />
+    </linearGradient>
+    <linearGradient id="c" x1="104.13" x2="108.54" y1="22.431" y2="127.6"
+      gradientTransform="matrix(.99071 0 0 .30668 1.6779 187.02)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3a5a40" offset="0" />
+      <stop stop-color="#46674d" offset="1" />
+    </linearGradient>
+    <linearGradient id="b" x1="109.15" x2="98.138" y1="74.728" y2="178.21"
+      gradientTransform="matrix(.98464 0 0 .77571 2.546 128.41)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18251a" offset="0" />
+      <stop stop-color="#263e2a" offset="1" />
+    </linearGradient>
+    <linearGradient id="a" x1="107.84" x2="113.21" y1="86.647" y2="16.054"
+      gradientTransform="matrix(-.99801 -.029663 -.0060617 .20394 209.64 188.42)"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#dad7cd" offset=".37805" />
+      <stop stop-color="#b6beaa" offset="1" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(0 -151.61)">
+    <rect y="151.61" width="210.17" height="46.812" fill="#fff"
+      style="paint-order:markers stroke fill" />
+    <path
+      d="m210.1 194.79c-6.5411-0.5247-14.678-3.3437-21.253-3.7786-6.8082-0.45024-17.957 1.3375-24.758 1.0277-9.2071-0.4194-18.244-2.4098-27.238-2.6982-5.4017-0.17326-14.756 0.89102-20.101 0.80372-40.868-0.66759-75.858-0.19269-116.7 1.5955l-0.018432 23.758 209.97 6.2047z"
+      fill="url(#a)" opacity=".42078" stroke-linecap="round" stroke-linejoin="round"
+      stroke-width=".5" style="paint-order:markers stroke fill" />
+    <path
+      d="m0.023375 194.49c6.5436-0.33013 14.459-2.8917 21.033-3.131 6.8079-0.24778 17.881 1.8704 24.678 1.7628 9.2012-0.14568 18.279-1.8667 27.264-1.8878 5.396-0.0127 14.7 1.329 20.037 1.4005 40.806 0.54685 76.424 2.1599 117.14 5.1608l-0.16301 23.634h-210.01z"
+      fill="url(#d)" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"
+      style="paint-order:markers stroke fill" />
+    <path
+      d="m159.36 198.01c-12.16 1.2393-34.816 5.4111-58.613 8.6806-9.8714 0.44142-19.138 0.84577-25.173 0.89659-25.934 0.21836-47.773-5.9018-54.485-4.499-7.5972 1.588-12.734 3.4831-21.102 4.5429l0.057886 2.2071c-0.082374 4e-3 0.040874 0.0149-0.041828 0.0181l0.23151 30.542h209.94v-34.739c-12.288-2.4781-33.488-5.0928-50.819-7.6497z"
+      fill="url(#e)" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"
+      style="paint-order:markers stroke fill" />
+    <path
+      d="m0 221.16c43.277-5.9234 69.389-14.088 92.586-14.24 18.395-0.1207 34.686 6.3368 51.124 8.0478 18.696 1.946 38.477-0.99827 66.293-4.4548l0.0557 26.62h-210z"
+      fill="url(#c)" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"
+      style="paint-order:markers stroke fill" />
+    <path
+      d="m0.00249 231.19s17.668 0.72459 26.5 0.48611c18.874-0.50967 37.669-2.6531 56.495-4.0937 32.544-2.4904 76.006-11.229 97.602-7.8654s29.499 10.455 29.409 10.659l0.13651 44.201-210.15-11.319z"
+      fill="url(#b)" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"
+      style="paint-order:markers stroke fill" />
+    <path
+      d="m0 260.91s25.107-17.427 39.954-19.786c11.225-1.7833 22.423 0.60818 33.642 3.5777 12.86 3.4039 27.074 0.60431 38.734 7.0728 10.411 5.7754 82.011 2.4327 97.882 15.848 3e-3 1.5396-0.15103 4.7328-0.0346 6.0509l-6e-3 8.1221-210.16-3.7958z"
+      fill="#172319" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"
+      style="paint-order:markers stroke fill" />
+    <path
+      d="m210.15 271.18c-83.441-3.1766-159.73 1.4805-210.15 4.6098-0.13839 13.655-0.11835 24.334-0.11835 24.334l210.32-0.05217z"
+      stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"
+      style="paint-order:markers stroke fill" />
+  </g>
+</svg>
