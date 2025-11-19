@@ -6,7 +6,7 @@ export default function Programming() {
 				<div className="body">
 					<div className="item">
 						<img
-							src="src/assets/dev-portfolio/everybody-math.png"
+							src="./src/assets/dev-portfolio/everybody-math.png"
 							className="photo em"
 						/>
 						<div className="text">
@@ -27,7 +27,7 @@ export default function Programming() {
 					</div>
 					<div className="item">
 						<img
-							src="src/assets/dev-portfolio/myday.gif"
+							src="./src/assets/dev-portfolio/myday.gif"
 							className="photo md"
 						/>
 						<div className="text">
@@ -47,7 +47,7 @@ export default function Programming() {
 					</div>
           <div className="item">
             <img
-							src="src/assets/dev-portfolio/ChatGPT.png"
+							src="./src/assets/dev-portfolio/ChatGPT.png"
 							className="photo ai"
 						/>
             <div className="text">

@@ -1,4 +1,4 @@
-import gallery from "../../src/assets/pixel-art/gallery.json";
+import gallery from "../assets/pixel-art/gallery.json";
 
 export default function PixelArt() {
   interface ArtObj {
@@ -44,7 +44,7 @@ export default function PixelArt() {
 			<div className="gallery">
         {gallery.map((art: ArtObj) => (
           <div className="artwork">
-            <img src={"src/assets/pixel-art/images/" + art.filename} alt="" />
+            <img src={"./src/assets/pixel-art/images/" + art.filename} alt="" />
             <div className="details">
               <h4 className="title">{art.title}</h4>
               <p className="date">{art.date}</p>
