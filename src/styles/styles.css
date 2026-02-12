@@ -179,6 +179,10 @@
   box-sizing: border-box;
   height: -moz-fit-content;
   height: fit-content;
+  padding: 5px;
+  background: white;
+  background: transparent;
+  border: 1px solid white;
 }
 .pixelart .gallery .artwork img {
   -o-object-fit: contain;
@@ -316,6 +320,23 @@ ul, .list {
 ul li, ul .item, .list li, .list .item {
   padding-left: 12.5px;
   margin: 5px 0;
+}
+
+.button {
+  margin: 25px;
+  background-color: #344E41;
+  color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 12.5px;
+  border-radius: 50px;
+  border: 2px solid #18251A;
+  transition: all 0.25s ease-in-out;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: rgba(52, 78, 65, 0.9);
+  border: 2px solid #344E41;
 }
 
 .footer {

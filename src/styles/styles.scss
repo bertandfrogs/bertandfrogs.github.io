@@ -67,6 +67,23 @@ ul, .list {
   }
 }
 
+.button {
+	margin: variables.$gutter;
+	background-color: variables.$color-dark1;
+	color: white;
+	width: fit-content;
+	padding: calc(variables.$gutter / 2);
+	border-radius: 50px;
+	border: 2px solid variables.$color-dark2;
+	transition: all 0.25s ease-in-out;
+
+	&:hover {
+		cursor: pointer;
+		background-color: rgba(variables.$color-dark1, 0.9);
+		border: 2px solid variables.$color-dark1;
+	}
+}
+
 .footer {
 	display: flex;
 	width: 100%;
