@@ -132,3 +132,11 @@ ul,
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.not-found {
+  .textbox {
+    img {
+      width: 60%;
+    }
+  }
+}

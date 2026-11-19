@@ -1,5 +1,5 @@
 import { useState } from "react";
-import gallery from "../../public/assets/pixel-art/gallery.json";
+import gallery from "../data/gallery.json";
 
 export default function PixelArt() {
 	interface ArtObj {

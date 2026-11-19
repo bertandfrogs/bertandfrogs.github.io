@@ -403,5 +403,41 @@
     "comments": "",
     "featured": true,
     "category": "bird"
+  },
+  {
+    "title": "Bella",
+    "filename": "bella.png",
+    "date": "Feb 21, 2026",
+    "program": "Aseprite",
+    "comments": "",
+    "featured": false,
+    "category": "animals"
+  },
+  {
+    "title": "Byrds (StS 2)",
+    "filename": "byrds.png",
+    "date": "Aug 31, 2026",
+    "program": "Aseprite",
+    "comments": "Slay the Spire 2",
+    "featured": false,
+    "category": "videogames"
+  },
+  {
+    "title": "Caspian Tern",
+    "filename": "caspian-tern.png",
+    "date": "Feb 28, 2026",
+    "program": "Aseprite",
+    "comments": "",
+    "featured": false,
+    "category": "bird"
+  },
+  {
+    "title": "American Wigeon",
+    "filename": "wigeon.png",
+    "date": "Feb 27, 2026",
+    "program": "Aseprite",
+    "comments": "",
+    "featured": false,
+    "category": "bird"
   }
 ]

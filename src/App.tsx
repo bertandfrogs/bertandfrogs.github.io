@@ -5,6 +5,7 @@ import About from "./pages/About.tsx";
 import Programming from "./pages/Programming.tsx";
 import Contact from "./pages/Contact.tsx";
 import PageLayout from "./components/PageLayout.tsx";
+import NotFound from "./pages/NotFound.tsx";
 import type React from "react";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
 				{/* <Route path="/origami" element={formatPage(<Origami />)}></Route> */}
 				<Route path="/pixel-art" element={formatPage(<PixelArt />)}></Route>
 				<Route path="/contact" element={formatPage(<Contact />)}></Route>
+				<Route path="*" element={formatPage(<NotFound />)}></Route>
 			</Routes>
 			<Background></Background>
 		</BrowserRouter>

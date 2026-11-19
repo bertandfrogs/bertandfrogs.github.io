@@ -3,7 +3,7 @@ const path = require('path');
 const readline = require('readline/promises');
 
 // Configuration
-const GALLERY_JSON_PATH = './public/assets/pixel-art/gallery.json';
+const GALLERY_JSON_PATH = './src/data/gallery.json';
 const DEST_DIR = './public/assets/pixel-art/images';
 const DEFAULT_PROGRAM = 'Aseprite';
 

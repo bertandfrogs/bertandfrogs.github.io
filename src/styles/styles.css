@@ -315,10 +315,7 @@
   box-sizing: border-box;
   height: -moz-fit-content;
   height: fit-content;
-  padding: 5px;
-  background: white;
   background: transparent;
-  border: 1px solid white;
 }
 .pixelart .gallery .artwork img {
   -o-object-fit: contain;
@@ -530,4 +527,8 @@ ul .item,
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.not-found .textbox img {
+  width: 60%;
 }
