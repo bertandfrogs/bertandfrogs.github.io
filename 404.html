@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sarah Smalley</title>
+    <script>
+      // GitHub Pages serves this file for any path it doesn't recognize, such as
+      // a direct visit to /pixel-art. Redirect to the app root with the original
+      // path packed into the query string; index.html restores it before React
+      // Router loads. Based on https://github.com/rafgraph/spa-github-pages
+      var l = window.location;
+      l.replace(
+        l.protocol +
+          "//" +
+          l.host +
+          "/?/" +
+          l.pathname.slice(1).replace(/&/g, "~and~") +
+          (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+          l.hash,
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
