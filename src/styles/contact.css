@@ -1,1 +1,18 @@
-.contact ul{list-style-type:none}.contact ul li{padding:0}.contact ul li .bi{margin-right:12.5px}.contact ul li .bi.sendmail{margin:0}
+.contact ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+@media (min-width: 768px) {
+  .contact ul {
+    padding-left: 40px;
+  }
+}
+.contact ul li {
+  padding: 0;
+}
+.contact ul li .bi {
+  margin-right: 12.5px;
+}
+.contact ul li .bi.sendmail {
+  margin: 0;
+}/*# sourceMappingURL=contact.css.map */

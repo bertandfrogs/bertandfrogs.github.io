@@ -1,10 +1,12 @@
 $gutter: 25px;
+$gutter-mobile: 16px;
 $button-padding: 10px;
 $font-main: "IBM Plex Sans", sans-serif;
 $font-main-weight: 400;
 $font-main-style: normal;
 $font-accent: "IBM Plex Mono", monospace;
 $nav-height: 60px;
+$nav-height-mobile: 44px;
 $total-nav-height: calc($gutter*2 + $nav-height);
 
 // colors
@@ -17,6 +19,7 @@ $color-dark2: #18251A;
 $black: #000000;
 $white: #ffffff;
 $textbox-transparent: rgba(255,255,255,.5);
+$textbox-solid: rgba(255,255,255,.95);
 
 // background
 $bg-0-light: #ffffff;

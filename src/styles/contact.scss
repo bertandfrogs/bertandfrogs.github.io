@@ -1,8 +1,14 @@
 @use "variables";
+@use "mixins";
 
 .contact {
   ul {
     list-style-type: none;
+    padding-left: 0;
+
+    @include mixins.md() {
+      padding-left: 40px;
+    }
     li {
       padding: 0;
       .bi {

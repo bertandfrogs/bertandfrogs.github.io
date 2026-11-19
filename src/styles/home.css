@@ -1,1 +1,12 @@
-.home{color:#18251a;display:flex;justify-content:center;align-items:center;max-height:-moz-fit-content;max-height:fit-content;height:50vh}.home .textbox{width:300px}
+.home {
+  color: #18251A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  height: 50vh;
+}
+.home .textbox {
+  width: 300px;
+}/*# sourceMappingURL=home.css.map */

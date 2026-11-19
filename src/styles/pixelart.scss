@@ -3,8 +3,12 @@
 
 .pixelart {
 	.gallery {
-		padding: variables.$gutter;
-		padding-top: 0;
+		padding: 0;
+
+		@include mixins.md() {
+			padding: variables.$gutter;
+			padding-top: 0;
+		}
 		display: grid;
 		justify-content: center;
 		box-sizing: border-box;
